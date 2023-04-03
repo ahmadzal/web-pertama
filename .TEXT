@@ -1,0 +1,55 @@
+<div class="col-md-3">
+            <div class="gallery-box">
+              <img src="./image/Pantai Pandawa.jpg" />
+              <h4>Pantai Pandawa</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="./image/Borobudur.jpg" />
+              <h4>Candi Borobudur</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Raja Ampat.jpg" />
+              <h4>Raja Ampat</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Bromo.jpg" />
+              <h4>Bromo</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Danau Toba IND.jpg" />
+              <h4>Danau Toba</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Wakatobi.jpg" />
+              <h4>Wakatobi</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Kota lama SMG.jpg" />
+              <h4>Kota Lama Semarang</h4>
+            </div>
+          </div>
+
+          <div class="col-md-3">
+            <div class="gallery-box">
+              <img src="/image/Pinus.jpg" />
+              <h4>Pinus pengger</h4>
+            </div>
+          </div>
