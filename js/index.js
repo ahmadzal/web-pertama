@@ -14,35 +14,35 @@ function loopElement(selector, callback) {
 const galleryData = [
   {
     nama: "Pantai_Pandawa",
-    image: "../image/Pantai_Pandawa.jpg",
+    image: "image/Pantai_Pandawa.jpg",
   },
   {
     nama: "Candi_Borobudur",
-    image: "../image/Candi_Borobudur.jpg",
+    image: "image/Candi_Borobudur.jpg",
   },
   {
     nama: "Raja_Ampat",
-    image: "../image/Raja_Ampat.jpg",
+    image: "image/Raja_Ampat.jpg",
   },
   {
     nama: "Wakatobi",
-    image:"../image/Wakatobi.jpg",
+    image: "image/Wakatobi.jpg",
   },
   {
     nama: "Kota_Lama",
-    image:"../image/Kota_Lama.jpg",
+    image: "image/Kota_Lama.jpg",
   },
   {
     nama: "Hutan_Pinus",
-    image:"../image/Hutan_Pinus.jpg"
+    image: "image/Hutan_Pinus.jpg",
   },
   {
     nama: "Gunung_Bromo",
-    image: "../image/Gunung_Bromo.jpg"
+    image: "image/Gunung_Bromo.jpg",
   },
   {
-    nama:"Danau_Toba",
-    image:"../image/Danau_Toba.jpg"
+    nama: "Danau_Toba",
+    image: "image/Danau_Toba.jpg",
   },
 ];
 
@@ -50,7 +50,7 @@ loopElement("#galleyItem", (e) => {
   return galleryData.map((gallery) => {
     e.innerHTML += `<div class="col-md-3">
     <div class="gallery-box">
-        <img src="${gallery.image}" />
+        <img src="./${gallery.image}" />
         <h4>${gallery.nama}</h4>
     </div>
 </div>    
