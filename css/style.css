@@ -33,14 +33,7 @@
   font-size: 55px;
 }
 .bold {
-font-weight: bold;
-}
-.input-group-text {
-  background-color: black !important;
-  color: #fff !important;
-  padding: 0 25px !important;
-  border-radius: 30px !important;
-  box-shadow: none !important;
+  font-weight: bold;
 }
 
 /*features*/
@@ -220,7 +213,6 @@ h1 {
 .footer .copyright {
   text-align: center;
 }
-
 .gray-text {
-	color: gray;
+  color: gray;
 }
