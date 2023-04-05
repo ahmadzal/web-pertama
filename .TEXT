@@ -53,3 +53,25 @@
               <h4>Pinus pengger</h4>
             </div>
           </div>
+
+
+
+
+
+          <div class="col-md-4">
+            <div class="user-review">
+              <p>
+                Indonesia does have many advantages, especially in the field of
+                tourism, we have all the beauty to be proud of and must be
+                preserved. I LOVE INDONESIA
+              </p>
+              <h5>Jill Valentine</h5>
+              <small>unknown</small>
+            </div>
+            <img src="./image/profil.png" />
+          </div>
+
+
+          <center>
+            <button type="submit" class="input-group-text">klik disini</button>
+          </center>

@@ -1,7 +1,3 @@
-const galleyItem = document.getElementById("galleyItem");
-
-console.log(galleyItem);
-
 function loopElement(selector, callback) {
   const Element = document.querySelector(selector);
   if (selector) {
@@ -55,5 +51,48 @@ loopElement("#galleyItem", (e) => {
     </div>
 </div>    
 `;
+  });
+});
+
+const userFeedback = [
+  {
+    nama: "Jill Valentine",
+    komentar:
+      "Indonesia does have many advantages, especially in the field oftourism, we have all the beauty to be proud of and must epreserved. I LOVE INDONESIA",
+    pekerjaan: "gfgfg",
+    gambar: "profil.png",
+  },
+  {
+    nama: "Ammadzal",
+    komentar:
+      "Sebagai penduduk asli Indonesia, saya berbangga hati tinggal di negeri yang dikelilingi beribu-ribu pulau dengan keindahan yang tiada duanya.",
+    pekerjaan: "gfgfg",
+    gambar: "foto.jpeg",
+  },
+  {
+    nama: "Abraham F Kennedy",
+    komentar:
+      "Destinations in Indonesia in my opinion, are indeed beautiful,especially with the addition of its citizens who are quite friendly with foreign tourists.",
+    pekerjaan: "gfgfg",
+    gambar: "bule.jpeg",
+  },
+];
+
+loopElement("#cardMain", (e) => {
+  return userFeedback.map((user, i) => {
+    e.innerHTML += `
+    <div class="col-md-4" data-aos="flip-left" data-aos-delay="${
+      i * 200
+    }" data-aos-duration="1500">
+    <div class="user-review">
+      <p>
+        ${user.komentar}
+      </p>
+      <h5>${user.nama}</h5>
+      <small>${user.pekerjaan}</small>
+    </div>
+    <img src="./image/${user.gambar}" />
+  </div>
+    `;
   });
 });

@@ -9,14 +9,13 @@
     <!-- link untuk memanggil bootstrap -->
     <link
       rel="stylesheet"
-      |
       href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     />
     <link
       rel="stylesheet"
-      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-
-awesome.min.css"
+      href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"
     />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
   </head>
   <body>
     <section class="header">
@@ -34,66 +33,32 @@ awesome.min.css"
             >Login</a
           >
         </div>
-        <h1><p style="color: cyan">WELCOME TO WEB PROGRAMMING</p></h1>
+        <h1 class="bold"><p style="color: cyan">WELCOME TO WEB PROGRAMMING</p></h1>
         <br />
-        <h2>"Indonesian Tourist Destinations"</h2>
+        <h2 style="margin-top: 30px;">"Indonesian Tourist Destinations"</h2>
         <h7><b>By : Muhammad Rizal</b></h7>
         <br /><br />
-        <center>
-          <button type="submit" class="input-group-text">klik disini</button>
-        </center>
+        
         <br />
       </div>
     </section>
     <section class="gallery">
-      <h1>Destinations Gallery</h1>
-      <div class="container">
-        <div id="galleyItem" class="row"></div>
+      <div data-aos="fade-down">
+        <h1 class="bold" data-aos="fade-down" data-aos-delay="200">Destinations Gallery</h1>
+        <div
+          class="container"
+          data-aos-delay="700"
+          data-aos-duration="1000"
+          data-aos="fade-down"
+        >
+          <div id="galleyItem" class="row"></div>
+        </div>
       </div>
     </section>
     <section class="user-feedback">
-      <h1>User Review</h1>
+      <h1 class="bold">Ulasan User</h1>
       <div class="container">
-        <div class="row">
-          <div class="col-md-4">
-            <div class="user-review">
-              <p>
-                Indonesia does have many advantages, especially in the field of
-                tourism, we have all the beauty to be proud of and must be
-                preserved. I LOVE INDONESIA
-              </p>
-              <h5>Jill Valentine</h5>
-              <small>unknown</small>
-            </div>
-            <img src="./image/profil.png" />
-          </div>
-
-          <div class="col-md-4">
-            <div class="user-review">
-              <p>
-                Sebagai penduduk asli Indonesia, saya berbangga hati tinggal di
-                negeri yang dikelilingi beribu-ribu pulau dengan keindahan yang
-                tiada duanya.
-              </p>
-              <h5>Ammadzal</h5>
-              <small>Indonesian People</small>
-            </div>
-            <img src="./image/foto.jpeg" />
-          </div>
-
-          <div class="col-md-4">
-            <div class="user-review">
-              <p>
-                Destinations in Indonesia in my opinion, are indeed beautiful,
-                especially with the addition of its citizens who are quite
-                friendly with foreign tourists.
-              </p>
-              <h5>Abraham F Kennedy</h5>
-              <small>American People</small>
-            </div>
-            <img src="./image/bule.jpeg" />
-          </div>
-        </div>
+        <div id="cardMain" class="row"></div>
       </div>
     </section>
     <section class="footer">
@@ -105,7 +70,7 @@ awesome.min.css"
               style="width: 125px"
               class="footer-logo"
             />
-            <p>
+            <p class="gray-text">
               Indonesia is a country that has tourism potential diverse, because
               there are many different ethnic groups so they can create and
               develop the tourism industry
@@ -113,29 +78,39 @@ awesome.min.css"
           </div>
           <div class="col-md-2">
             <h4>Information</h4>
-            <p>Beautiful panorama</p>
-            <p>tourist destination</p>
-            <p>interesting to visit</p>
+            <div class="gray-text">
+              <p>Beautiful panorama</p>
+              <p>tourist destination</p>
+              <p>interesting to visit</p>
+            </div>
           </div>
           <div class="col-md-4">
             <h4>quick contact</h4>
-            <p><i class="fa fa-phone-square"> +62 821-1633-6303</i></p>
-            <p><i class="fa fa-envelope"> ammadrisal@gmail.com</i></p>
-            <p><i class="fa fa-home"> JL. Dewi Sartika Barat VB</i></p>
+            <div class="gray-text">
+              <p><i class="fa fa-phone-square"> +62 821-1633-6303</i></p>
+              <p><i class="fa fa-envelope"> ammadrisal@gmail.com</i></p>
+              <p><i class="fa fa-home"> JL. Dewi Sartika Barat VB</i></p>
+            </div>
           </div>
           <div class="col-md-3">
             <h4>follow Us on</h4>
-            <p><i class="fa fa-facebook-official"> Facebook</i></p>
-            <p><i class="fa fa-youtube-play"> YouTube</i></p>
-            <p><i class="fa fa-instagram"> instagram</i></p>
+            <div class="gray-text">
+              <p><i class="fa fa-facebook-official"> Facebook</i></p>
+              <p><i class="fa fa-youtube-play"> YouTube</i></p>
+              <p><i class="fa fa-instagram"> instagram</i></p>
+            </div>
           </div>
         </div>
         <hr />
-        <p class="copyright">
+        <p class="copyright gray-text">
           Made With <i class="fa fa-heart"></i>By : Muhammad Rizal
         </p>
       </div>
     </section>
     <script src="./js/index.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
