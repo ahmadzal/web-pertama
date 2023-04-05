@@ -59,21 +59,21 @@ const userFeedback = [
     nama: "Jill Valentine",
     komentar:
       "Indonesia does have many advantages, especially in the field oftourism, we have all the beauty to be proud of and must epreserved. I LOVE INDONESIA",
-    pekerjaan: "gfgfg",
-    gambar: "profil.png",
+    pekerjaan: "Agent Intelligent",
+    gambar: "GIRL.jpg",
   },
   {
     nama: "Ammadzal",
     komentar:
       "Sebagai penduduk asli Indonesia, saya berbangga hati tinggal di negeri yang dikelilingi beribu-ribu pulau dengan keindahan yang tiada duanya.",
-    pekerjaan: "gfgfg",
+    pekerjaan: "College Student",
     gambar: "foto.jpeg",
   },
   {
     nama: "Abraham F Kennedy",
     komentar:
       "Destinations in Indonesia in my opinion, are indeed beautiful,especially with the addition of its citizens who are quite friendly with foreign tourists.",
-    pekerjaan: "gfgfg",
+    pekerjaan: "CEO",
     gambar: "bule.jpeg",
   },
 ];
